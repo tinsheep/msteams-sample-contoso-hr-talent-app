@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TeamsTalentMgmtApp/src/TeamsTalentMgmtAppV4/appsettings.json
+/TeamsTalentMgmtApp/src/TeamsTalentMgmtAppV3/Web.Release.config
+/TeamsTalentMgmtApp/src/TeamsTalentMgmtAppV3/Web.Debug.config
+/TeamsTalentMgmtApp/src/TeamsTalentMgmtAppV3/Web.config
