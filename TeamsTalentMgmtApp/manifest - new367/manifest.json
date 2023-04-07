@@ -1,8 +1,8 @@
 {
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.5",
-  "version": "1.0.0.0",
-  "id": "1f5b67a8-914d-4e5f-b614-16fd76887d4a",
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "2.1.0",
+  "id": "a97cf009-308c-4fdc-a137-04f8f2a3e86a",
   "packageName": "com.contoso.talentapp",
   "developer": {
     "name": "Contoso",
@@ -12,17 +12,17 @@
   },
   "name": {
     "short": "Contoso Talent",
-    "full": "Contoso Talent and Recruiting App"
+    "full": "MSFT Updated - Contoso Talent and Recruiting App"
   },
   "description": {
-    "short": "Talent app for Contoso managers and recruiters",
+    "short": "MSFT - Talent app for Contoso managers and recruiters",
     "full": "This sample Recruiting and Talent app showcases many of the capabilities Microsoft Teams supports.  App content is hosted for illustrative purposes only."
   },
   "icons": {
     "outline": "outline_icon.png",
     "color": "color_icon.png"
   },
-  "accentColor": "#020081",
+  "accentColor": "#9ba7e8",
   "configurableTabs": [
     {
       "configurationUrl": "https://myteamsdev.ngrok.io/StaticViews/TeamTabConfig.html?v=1",
@@ -41,7 +41,7 @@
   ],
   "bots": [
     {
-      "botId": "fc8f73c6-d41e-4768-99e3-88474be4c0ab",
+      "botId": "d259163c-11cb-4f6a-9f8d-6440f6ae4ff0",
       "needsChannelSelector": false,
       "isNotificationOnly": false,
       "scopes": [ "team", "personal", "groupchat" ],
@@ -77,7 +77,7 @@
   ],
   "connectors": [
     {
-      "connectorId": "09173102-18f4-4203-83b5-4c998bfc48e7",
+      "connectorId": "56982b09-9e9b-465e-8cb5-402f6611463f",
       "scopes": [
         "team"
       ],
@@ -86,7 +86,7 @@
   ],
   "composeExtensions": [
     {
-      "botId": "fc8f73c6-d41e-4768-99e3-88474be4c0ab",
+      "botId": "d259163c-11cb-4f6a-9f8d-6440f6ae4ff0",
       "canUpdateConfiguration": false,
       "commands": [
         {
@@ -149,7 +149,7 @@
           ]
         }
       ],
-	  "messageHandlers": [
+      "messageHandlers": [
         {
           "type": "link",
           "value": {
